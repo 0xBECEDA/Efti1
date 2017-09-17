@@ -9,13 +9,35 @@
         <link rel="stylesheet" href="css/base.css" />
     </head>
     <body>
-
+        <script type="text/javascript" src="./js/menu.js"></script>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-2">
-                    menu
-                </div>
-                <div class="col">
+                    <div class="showmenu" style="display:none;">
+                        <button type="button" class="btn btn-primary"
+                               onclick="showmenu();">
+                        <span>
+                            откр. меню
+                        </span>
+                       </button>
+                    </div>
+                    <div class="hidemenu">
+                       <button type "button" class="btn btn-primary"
+                               onclick="hidemenu();">
+                           <span>
+                               закр.меню
+                        </span>
+                       </button>
+                    </div>
+                    <div class="menu">
+                      <div class="about-us">
+                           о компании
+                       </div>
+                       <div class="products">
+                       продукция
+                       </div>
+                    </div>
+                       <div class="col">
                     EFT
                 </div>
                 <div class="col-2">
@@ -26,9 +48,9 @@
                 <!-- <div class="col-1"> -->
                 <!-- E -->
                 <!-- </div> -->
-                <div class="col">
-                    <h2>О&nbsp;компании</h2>
-                </div>
+                <!-- <div class="col"> -->
+                    <!-- <h2>О&nbsp;компании</h2> -->
+                <!-- </div> -->
                 <!-- <div class="col-1"> -->
                 <!-- F -->
                 <!-- </div> -->
@@ -37,14 +59,15 @@
                 <!-- <div class="col-1"> -->
                 <!-- E -->
                 <!-- </div> -->
-                <div class="col main">
+                <div class="col">
                     <div class="main">
-                        <h1> Мы создаем  косметику </h1>
-                        <h4> Самые актуальные научные <br /> тенденции
+                      <div class="main-text">
+                          <h2> мы создаем  косметику </h2>
+                        <h6> Самые актуальные научные <br /> тенденции
                             и рыночые  <br />тренды в области гигиены,
                             <br /> парфюмерии и косметики
-                        </h4>
-
+                        </h6>
+                      </div>
                     </div>
 
 

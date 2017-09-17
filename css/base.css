@@ -45,24 +45,32 @@
 
 /* Extra large devices (large desktops, 1200px and up) */
 /* @media (min-width: 1200px) { */
-.main {
-    border: 1px solid red;
-    height: 400px;
-    background-image: url('../img/main320.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: left;
-    width: auto;
+/* .main { */
+    /* border: 1px solid red; */
 
-
-    }
+    /* } */
 /* } */
 
 /* for all */
 .container-fluid {
 padding: 0px;
+ background-color: #fef3c5;
 }
 
+.main {
+    border: 1px solid red;
+    height: 500px;
+    width: auto;
+    background-image: url('../img/main320.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+
+ }
+.main-text {
+padding-top: 100px;
+padding-bottom: 200px;
+}
 .peno {
     border: 1px solid green;
     height: 160px;
