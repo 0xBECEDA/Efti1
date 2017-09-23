@@ -1,11 +1,11 @@
 function showmenu () {
-  $('.menu').show();
+  $('.menu').hide();
   $('.hidemenu').show();
   $('.showmenu').hide();
 }
 
 function hidemenu () {
-  $('.menu').hide();
+  $('.menu').show();
   $('.hidemenu').hide();
   $('.showmenu').show();
 }
