@@ -18,7 +18,7 @@
     .main {
         border: 1px solid red;
         height: 500px;
-        width: auto;
+        width: 100%;
         background-image: url('../img/main320.jpg');
         background-repeat: no-repeat;
         background-size: contain;
@@ -37,7 +37,7 @@
     .peno {
         border: 1px solid green;
         height: 160px;
-        width: auto;
+        width: 100%;
         background-image: url('../img/main320(2).jpg');
         background-repeat: no-repeat;
         background-size: contain;
