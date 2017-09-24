@@ -195,9 +195,34 @@
         padding-top: 30px;
     }
     .text2 {
-        height: 450px;
-        width: auto;
+        height: 600px;
+        width: 100%;
         border: 1px solid black;
+    }
+
+    .text2_h4 {
+        height: 100px;
+        width: 65%;
+        padding-left: 18px;
+        padding-top: 20px;
+
+    }
+    .text2_h6 {
+        height: 130px;
+        width: 88%;
+        padding-left: 18px;
+
+    }
+    .text2_h6_2 {
+        height: 150px;
+        width: 100%;
+        padding-left: 18px;
+    }
+    .link {
+        height: 100px;
+        width: 100%;
+        padding-left: 30px;
+        padding-top: 50px;
     }
     .text3{
         height: 500px;
