@@ -17,7 +17,7 @@
     }
     .main {
         border: 1px solid red;
-        height: 500px;
+        height: 400px;
         width: 100%;
         background-image: url('../img/main320.jpg');
         background-repeat: no-repeat;
@@ -31,8 +31,7 @@
     .h2 {
         font-family: "Lucida Sans Unicode" Cursive ;
         font-size: 20px;
-        /* color: green; */
-        linear-gradient: (to right, 3a8bca, 9a5caf);
+        linear-gradient: (to right, #3a8bca, #9a5caf);
     }
     .peno {
         border: 1px solid green;
@@ -47,8 +46,6 @@
     .peno h4 {
         padding-top: 40px;
         padding-bottom: 30px;
-        /* position: center; */
-        /* margin-top: 20px; */
     }
     .cream {
         border: 1px solid yellow;
@@ -202,7 +199,7 @@
 
     .text2_h4 {
         height: 100px;
-        width: 65%;
+        width: 70%;
         padding-left: 18px;
         padding-top: 20px;
 
@@ -214,9 +211,10 @@
 
     }
     .text2_h6_2 {
-        height: 150px;
+        height: 160px;
         width: 100%;
         padding-left: 18px;
+        padding-top: 20px;
     }
     .link {
         height: 100px;
@@ -224,14 +222,59 @@
         padding-left: 30px;
         padding-top: 50px;
     }
-    .text3{
+    .text3 {
         height: 500px;
         width: auto;
         border: 1px solid black;
+        background: linear-gradient(to right, #3e8ac8, #965cb0);
+    }
+    .contacts {
+        padding-left: 15px;
+        padding-top: 10px;
+    }
+
+    .adress {
+        padding-left: 15px;
+    }
+    .adress1 {
+        padding-left: 15px;
+        margin-top: -15px;
+    }
+
+    .phone {
+        padding-left: 15px;
+        margin-top: 0px;
+    }
+
+    .number {
+        padding-left: 15px;
+        margin-top: -15px;
+    }
+    .general_email {
+        padding-left: 15px;
+        margin-top: 0px;
+    }
+    .email {
+        padding-left: 15px;
+        margin-top: -15px;
+    }
+    .cooperation {
+        padding-left: 15px;
+        margin-top: 0px;
+    }
+    .cooperation1 {
+        padding-left: 15px;
+        margin-top: -15px;
+}
+    .work_email {
+        padding-left: 15px;
+        margin-top: 0px;
+    }
+    .email2 {
+        padding-left: 15px;
+        margin-top: -15px;
     }
 }
-
-
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
