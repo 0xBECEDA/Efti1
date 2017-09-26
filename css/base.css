@@ -275,7 +275,7 @@
         margin-top: -15px;
     }
 }
-/* Medium devices (tablets, 768px and up) */
+/* Me.dium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
     .container-fluid {
@@ -346,7 +346,7 @@
     }
 
     .text {
-        height: 1400px;
+        height: 1100px;
         width: 100%;
         border: 1px solid black;
     }
@@ -455,12 +455,98 @@
     }
 
     .text2 {
-        height: 600px;
+        height: 820px;
         width: 100%;
         background-image: url('../img/main_768(10).jpg');
         background-repeat: no-repeat;
         background-size: contain;
 
+    }
+
+    .text2_h4 {
+        height: 200px;
+        width: 70%;
+        padding-left: 40px;
+        padding-top: 480px;
+
+    }
+    .text2_h6 {
+        height: 100px;
+        width: 85%;
+        padding-left: 40px;
+        padding-top: 50px;
+
+    }
+    .text2_h6_2 {
+        height: 110px;
+        width: 80%;
+        padding-left: 40px;
+        padding-top: 30px;
+    }
+
+    .link {
+        height: 20px;
+        width: 100%;
+        padding-left: 60px;
+        padding-top: 40px;
+    }
+
+     .map {
+       height: 600px;
+       width: 100%;
+   }
+   .text3 {
+        height: 500px;
+        width: 100%;
+        border: 1px solid black;
+        background: linear-gradient(to right, #3e8ac8, #965cb0);
+   }
+    .contacts {
+        padding-left: 50px;
+        padding-top: 20px;
+    }
+
+    .adress {
+        padding-left: 50px;
+    }
+    .adress1 {
+        width: 40%;
+        padding-left: 50px;
+        margin-top: -15px;
+    }
+
+    .phone {
+        padding-left: 50px;
+        margin-top: 20px;
+    }
+
+    .number {
+        padding-left: 50px;
+        margin-top: -15px;
+    }
+    .general_email {
+        padding-left: 50px;
+        margin-top: 20px;
+    }
+    .email {
+        padding-left: 50px;
+        margin-top: -15px;
+    }
+    .cooperation {
+        padding-left: 50px;
+        margin-top: 20px;
+    }
+    .cooperation1 {
+        padding-left: 50px;
+        margin-top: -15px;
+    }
+    .work_email {
+        padding-left: 50px;
+        margin-top: 20px;
+    }
+    .email2 {
+        padding-left: 50px;
+        margin-top: -15px;
     }
 }
 
