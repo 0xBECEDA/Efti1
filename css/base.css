@@ -222,7 +222,7 @@ q/* No media query since this is the default in Bootstrap */
         padding-left: 30px;
         padding-top: 50px;
     }
-    #map_container{
+    .map_container{
         position: relative;
         height: 280px;
         width: 100%;
@@ -315,7 +315,7 @@ q/* No media query since this is the default in Bootstrap */
     }
     .peno {
         border: 1px solid green;
-        height: 300px;
+        height: 340px;
         width: 100%;
         background-image: url('../img/main_768(2).jpg');
         background-repeat: no-repeat;
@@ -324,12 +324,13 @@ q/* No media query since this is the default in Bootstrap */
         background-color: #fef3c5;
     }
     .peno h4 {
-        padding-top: 40px;
-        padding-bottom: 30px;
+        width: 50%;
+        padding-top: 100px;
+        padding-left: 30px;
     }
     .cream {
         border: 1px solid yellow;
-        height: 300px;
+        height: 340px;
         width: 100%;
         background-image: url('../img/main_768(3).jpg');
         background-repeat: no-repeat;
@@ -338,15 +339,16 @@ q/* No media query since this is the default in Bootstrap */
         background-color: e7f4da;
     }
     .cream h4 {
-        padding-top: 50px;
-        padding-bottom: 30px;
+        width: 50%;
+        padding-top: 100px;
+        padding-left: 30px;
     }
 
     .napkin {
         border: 1px solid black;
-        height: 300px;
+        height: 340px;
         width: 100%;
-        background-image: url('../img/main768(4).jpg');
+        background-image: url('../img/main_768(4).jpg');
         background-repeat: no-repeat;
         background-size: contain;
         background-position: right;
@@ -354,9 +356,9 @@ q/* No media query since this is the default in Bootstrap */
     }
 
     .napkin_h4 {
-        padding-top: 50px;
-        padding-bottom: 30px;
-
+        width: 50%;
+        padding-top: 100px;
+        padding-left: 30px;
     }
 
     .text {
@@ -515,11 +517,11 @@ q/* No media query since this is the default in Bootstrap */
         padding-left: 60px;
         padding-top: 40px;
     }
-   #map_container{
+   .map_container{
         position: relative;
         height: 600px;
         width: 100%;
-
+        padding-right: 15px;
    }
 
     #map iframe {
@@ -530,10 +532,7 @@ q/* No media query since this is the default in Bootstrap */
 
 
     }
-    /*  .map { */
-       /* height: 600px; */
-       /* width: 100%; */
-   /* } */
+
    .text3 {
         height: 500px;
         width: 100%;
@@ -589,36 +588,308 @@ q/* No media query since this is the default in Bootstrap */
         padding-left: 0px;
         margin-top: -15px;
     }
+
 }
+    /* Large devices (large desktops, 1200px and up) *\/ */
+    @media (min-width: 1200px) {
+     .container-fluid {
+        padding: -30px;
+        margin-left: -15px;
+        margin-right: 15px;
+        max-width: 100%;
+    }
+    .main {
+        border: 1px solid red;
+        height: 660px;
+        width: 100%;
+        background-image: url('../img/main_1200.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .main-text {
+        padding-top: 70px;
+        padding-bottom: 200px;
+    }
+    .peno {
+        border: 1px solid green;
+        height: 760px;
+        width: 100%;
+        background-image: url('../img/main_1200(1).jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
+        background-color: #fef3c5;
+    }
+    .peno h4 {
+        width: 80%;
+        padding-top: 130px;
+        padding-left: 100px;
+        text-align: center;
+    }
+    .cream {
+        border: 1px solid yellow;
+        height: 760px;
+        width: 100%;
+        background-image: url('../img/main_1200(2).jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
+        background-color: e7f4da;
+    }
+    .cream h4 {
+        width: 80%;
+        padding-top: 80px;
+        padding-left: 100px;
+        text-align: center;
+    }
 
-    /* Medium devices (tablets, 768px and up) */
-    /* @media (min-width: 768px) { */
-    /* .main { */
-    /*     border: 1px solid red; */
-    /*     background-image: url('../img/main320.jpg'); */
-    /*     position: relative; */
-    /*     width: 100%; */
-    /* } */
-    /* } */
+    .napkin {
+        border: 1px solid black;
+        height: 760px;
+        width: 100%;
+        background-image: url('../img/main_1200(3).jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
+        background-color: cee7ec;
+    }
 
-    /* Large devices (desktops, 992px and up) */
-    /* @media (min-width: 992px) { */
-    /* .main { */
-    /*     border: 1px solid blue; */
-    /*     background-image: url('../img/main320.jpg'); */
-    /*     position: relative; */
-    /*     width: 100%; */
+    .napkin_h4 {
+        width: 80%;
+        padding-top: 130px;
+        padding-left: 100px;
+        text-align: center;
 
-    /* } */
-    /* } */
 
-    /* Extra large devices (large desktops, 1200px and up) */
-    /* @media (min-width: 1200px) { */
-    /* .main { */
-    /* border: 1px solid red; */
+    }
 
-    /* } */
-    /* } */
+    .text {
+        height: 770px;
+        width: 100%;
+        border: 1px solid black;
+    }
+    .our {
+        /* hight: 160px; */
+        width:auto;
+        border: 1px solid green;
+        padding-left: 130px;
+        padding-right: 200px;
+    }
+    .our_h4 {
+        width: auto;
+        height: 90px;
+        padding-left: 0px;
+        padding-top: 20px;
+        text-align:  center;
+
+    }
+    .correlation {
+        background-image: url('../img/main_768(5).jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left;
+        background-color: ffffff;
+        border: 1px solid black;
+        height: 200px;
+        width: auto;
+        margin-left: 50px;
+        margin-right: 40px;
+    }
+    .correlation_h4 {
+        height: 70px;
+        width: auto;
+        padding-left: 180px;
+        padding-top: 50px;
+
+    }
+    .system {
+        background-image: url('../img/main_768(6).jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left;
+        background-color: ffffff;
+        border: 1px solid black;
+        height: 155px;
+        width: auto;
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+
+     .system_h4 {
+        height: 50px;
+        width: auto;
+        padding-left: 160px;
+        padding-top: 40px;
+    }
+    .amount {
+        background-image: url('../img/main_768(7).jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left;
+        background-color: ffffff;
+        border: 1px solid black;
+        height: 155px;
+        width: auto;
+        margin-left: 0px;
+        margin-right: 40px;
+        margin-top: 30px;
+    }
+
+    .amount_h4 {
+        height: 80px;
+        width: 75%;
+        padding-left: 160px;
+        padding-top: 25px;
+    }
+
+    .cycle {
+        background-image: url('../img/main_768(8).jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left;
+        background-color: ffffff;
+        border: 1px solid black;
+        height: 155px;
+        width: auto;
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+
+    .cycle_h4 {
+        height: 80px;
+        width: auto;
+        padding-left: 160px;
+        padding-top: 50px;
+    }
+
+    .for_client {
+        background-image: url('../img/main_768(9).jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left;
+        background-color: ffffff;
+        border: 1px solid black;
+        height: 155px;
+        width: auto;
+        margin-left: 0px;
+        margin-right: 40px;
+        margin-top: 30px;
+    }
+
+    .client_h4 {
+        height: 90px;
+        width: 85%;
+        padding-left: 160px;
+        padding-top: 50px;
+    }
+
+    .text2 {
+        height: 760px;
+        width: 100%;
+        background-image: url('../img/main_1200(8).jpg');
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-position: right;
+        background-color: white;
+    }
+
+    .text2_h4 {
+        height: 200px;
+        width: 25%;
+        padding-left: 40px;
+        padding-top: 150px;
+
+    }
+    .text2_h6 {
+        height: 100px;
+        width: 40%;
+        padding-left: 40px;
+        padding-top: 30px;
+
+    }
+    .text2_h6_2 {
+        height: 110px;
+        width: 45%;
+        padding-left: 40px;
+        padding-top: 30px;
+    }
+
+    .link {
+        height: 20px;
+        width: 100%;
+        padding-left: 60px;
+        padding-top: 70px;
+    }
+   .map_container{
+        position: relative;
+        height: 700px;
+        width: 100%;
+        padding-right: -15px;
+   }
+
+    #map iframe {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+    }
+
+   .text3 {
+        height: 700px;
+        width: 100%;
+        border: 1px solid black;
+        background: linear-gradient(to right, #3e8ac8, #965cb0);
+
+   }
+
+   .contacts {
+        padding-left: 80px;
+        padding-top: 80px;
+   }
+
+    .adress {
+        padding-left: 110px;
+    }
+    .adress1 {
+        width: 61%;
+        margin-top: -15px;
+        padding-left: 0px;
+    }
+
+    .phone {
+        padding-left: 110px;
+        margin-top: 0px;
+    }
+
+    .number {
+        padding-left: 0px;
+        margin-top: -15px;
+    }
+    .general_email {
+        padding-left: 110px;
+        margin-top: 0px;
+    }
+    .email {
+        padding-left: 0px;
+        margin-top: -15px;
+    }
+    .cooperation {
+        padding-left: 110px;
+        margin-top: 0px;
+    }
+    .cooperation1 {
+        padding-left: 0px;
+        margin-top: -15px;
+    }
+    .work_email {
+        padding-left: 110px;
+        margin-top: 0px;
+    }
+    .email2 {
+        padding-left: 0px;
+        margin-top: -15px;
+    }
+}
 
     /* for all */
     /* .container-fluid { */
